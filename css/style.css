@@ -461,3 +461,38 @@ body {
     font-weight: 300;
     color: #777777;
 }
+
+.about {
+    padding-top: 98px;
+    padding-bottom: 104px;
+    background-image: url(../img/main/about/about-bg.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about__title {
+    color: #FFFFFF;
+}
+.about__quotes {
+    margin-top: 99px;
+    text-align: center;
+}
+/* .about__text {
+    margin-top: 168px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #BBBBBB;
+    text-align: center;
+    position: relative;
+} */
+/* .about__text::before {
+    position: absolute;
+    content: '';
+    width: 44px;
+    height: 32px;
+    background-image: url(../img/main/about/quotes.png);
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
+} */
