@@ -3,12 +3,16 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
     slidesPerView: 4,
     loop: true,
     freeMode: true,
-    loopedSlides: 1, //looped slides should be the same
-    watchSlidesVisibility: true,
+    loopedSlides: 4, //looped slides should be the same
     watchSlidesProgress: true,
+    navigation: {
+      nextEl: '.button-next',
+      prevEl: '.button-prev',
+    },
   });
   var galleryTop = new Swiper('.gallery-top', {
     spaceBetween: 1,
+    slidesPerView: 1,
     loop: true,
     loopedSlides: 1, //looped slides should be the same
     navigation: {
@@ -16,18 +20,7 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
       prevEl: '.button-prev',
     },
     thumbs: {
-      swiper: galleryThumbs,
+      swiper: galleryTop
     },
   });
-  var aboutSliderText = new Swiper('.about__slider-text', {
-    spaceBetween: 1,
-    loop: true,
-    loopedSlides: 1, //looped slides should be the same
-    navigation: {
-      nextEl: '.button-next',
-      prevEl: '.button-prev',
-    },
-    thumbs: {
-      swiper: galleryThumbs,
-    },
-  });
+  

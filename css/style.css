@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-    max-width: 1160px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 .header {
@@ -477,22 +477,100 @@ body {
     margin-top: 99px;
     text-align: center;
 }
-/* .about__text {
-    margin-top: 168px;
-    font-size: 16px;
-    line-height: 30px;
-    font-weight: 300;
-    color: #BBBBBB;
-    text-align: center;
-    position: relative;
+.gallery {
+    padding: 95px 0 88px 0;
+}
+
+/* .gallery__items {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.gallery__item-other {
+    display: inline-block;
+    height: 453px;
+    width: 364px;
+    background-color: green;
+}
+.gallery__item {
+    margin-right: 20px;
+}
+.gallery__item:last-child {
+    margin-right: 0px;
+}
+.gallery__item:nth-child(4) {
+    margin-top: -100px;
+}
+.gallery__item:nth-child(5) {
+    margin-top: 15px;
+}
+.gallery__item:nth-child(6) {
+    margin-top: 10px;
+}
+.gallery__item:nth-child(7) {
+    margin-top: -150px;
+}
+.gallery__item:nth-child(8) {
+    margin-top: 10px;
 } */
-/* .about__text::before {
-    position: absolute;
-    content: '';
-    width: 44px;
-    height: 32px;
-    background-image: url(../img/main/about/quotes.png);
-    left: 50%;
-    transform: translateX(-50%);
-    top: -50px;
-} */
+
+.gallery__items {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.gallery__item-other {
+    /* display: flex; */
+    /* grid-template-columns: repeat(2, 1fr); */
+    height: 453px;
+    width: 364px;
+}
+.gallery__item-other-big {
+    display: flex;
+    
+}
+.gallery__item-other-big img:first-child {
+    margin-right: 3px;
+}
+.gallery__item-other-little {
+    margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery__item-other-little img {
+    margin-bottom: 3px;
+}
+.gallery__item-other-little img:nth-child(1) {
+   margin-right: 3px;
+}
+.gallery__item-other-little img:nth-child(2) {
+    margin-right: 3px;
+ }
+ .gallery__item-other-little img:nth-child(4) {
+    margin-right: 3px;
+ }
+ .gallery__item-other-little img:nth-child(5) {
+    margin-right: 3px;
+ }
+ .gallery__item-other-little img:nth-child(7) {
+    margin-right: 3px;
+ }
+ .gallery__item-other-little img:nth-child(8) {
+    margin-right: 3px;
+ }
+.gallery__item:nth-child(4) {
+    margin-top: -100px;
+}
+.gallery__item:nth-child(5) {
+    margin-top: -50px;
+}
+.gallery__item:nth-child(6) {
+    margin-top: 50px;
+}
+.gallery__item:nth-child(7) {
+    margin-top: -150px;
+}
+.gallery__item:nth-child(8) {
+    margin-top: -150px;
+}

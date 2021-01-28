@@ -1,18 +1,11 @@
 .swiper-container {
     text-align: center;
 }
-  
-  .about__slider-text {
-  margin-top: 36px;
-  font-size: 16px;
-  line-height: 30px;
-  color: #BBBBBB;
-  font-weight: 300;
-  }
+
   .gallery-top {
     margin-top: 37px;
-    height: 250px;
-    width: 300px;
+    height: 330px;
+    width: 1160px;
   }
   .gallery-top .swiper-slide img {
     border-radius: 50%;
@@ -20,10 +13,10 @@
 }
   
   .gallery-thumbs {
-      margin-top: 20px;
-    height: 80px;
+    margin-top: 30px;
+    height: 120px;
     box-sizing: border-box;
-    padding: 10px 0px;
+    padding: 30px 0px;
     position: relative;
     width: 500px;
   }
@@ -35,39 +28,55 @@
   .buttons-control {
     position: relative;
   }
-  .button-next {
-    position: absolute;
-    left: 25%;
-    top: -55px;
-    width: 31px;
-    line-height: 31px;
-    border: 1px solid #BBBBBB; 
-    outline: none;
-    text-align: center;
-    cursor: pointer;
-  }
-  .button-next:hover {
-    background-color: #18CFAB;
-  }
   .button-prev {
     position: absolute;
-    top: -55px;
-    right: 25%;
+    left: 25%;
+    top: -75px;
     width: 31px;
-    line-height: 31px;
     border: 1px solid #BBBBBB; 
     outline: none;
     text-align: center;
     cursor: pointer;
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 3px;
+    color: #BBBBBB;
   }
   .button-prev:hover {
     background-color: #18CFAB;
+    color: #fff;
+  }
+  .button-next {
+    position: absolute;
+    top: -75px;
+    right: 25%;
+    width: 31px;
+    border: 1px solid #BBBBBB; 
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 3px;
+    color: #BBBBBB;
+  }
+  
+  .button-next:hover {
+    background-color: #18CFAB;
+    color: #fff;
   }
 
   .button-prev img {
     transform: scale(-1, 1);
   }
+  .swiper-slide-text {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #BBBBBB;
+  }
   .swiper-slide-person {
+    margin-top: 37px;
       font-size: 16px;
       line-height: 27px;
       font-weight: 700;
@@ -80,3 +89,9 @@
       color: #BBBBBB;
       margin-bottom: 25px;
   }
+
+  .gallery-thumbs .swiper-slide-active {
+    margin-top: -15px;
+    transition: all 0.3s;
+  }
+
