@@ -1,6 +1,6 @@
 /* Симуляція завантаження */
 .cssload-loader {
-  display: none;
+  display: block;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -11,7 +11,9 @@
   perspective: 780px;
   margin-top: 60px;
 }
-
+.works__cssload-loader {
+  display: none;
+}
 .cssload-inner {
   position: absolute;
   width: 100%;
