@@ -407,6 +407,10 @@ body {
     top: 50%;
     left: 23px;
 }
+
+#works__btn-drop-menu-2 {
+    display: none;
+}
 .works__items-drop {
     margin-top: 5px;
     padding: 0px 35px;
