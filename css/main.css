@@ -12,7 +12,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 .container {
-    max-width: 1200px;
+    max-width: 1160px;
     margin: 0 auto;
 }
 .header {
@@ -202,7 +202,6 @@ body {
 }
 .services__menu {
     display: flex;
-    justify-content: space-between;
 }
 .services__menu-item {
     font-size: 16px;
@@ -345,6 +344,7 @@ body {
     left: 0px;
     top: 0;
     transition: 0.3s;
+    border-top: 3px solid #18CFAB;
 }
 .works__item-title {
     margin-top: 25px;
@@ -421,7 +421,7 @@ body {
 .news__image-calendar {
     position: absolute;
     top: 0;
-    right: 19px;
+    right: 14px;
     font-size: 16px;
     line-height: 25px;
     letter-spacing: 1px;
