@@ -6,7 +6,7 @@
     const hideLoadingShowDropGallery  = () => { 
         setTimeout(() => {
             loadingGalleryEl.style.display = 'none';
-            galleryItemsDropEl.style.display = 'grid';
+            galleryItemsDropEl.style.display = 'grid'
         }, 2000)
     };
     
