@@ -14,9 +14,9 @@
             if (!item.classList.contains(filterClass) && filterClass !== 'all-items') {
                 item.classList.add('works__item-hide');
             }
-            worksItemsBlock.style.marginLeft = '147px';
-            worksItemsDropBlock1.style.marginLeft = '147px';
-            worksItemsDropBlock2.style.marginLeft = '147px'
+            worksItemsBlock.style.marginLeft = '130px';
+            worksItemsDropBlock1.style.marginLeft = '130px';
+            worksItemsDropBlock2.style.marginLeft = '130px'
             if (filterClass === 'all-items') {
                 worksItemsBlock.style.marginLeft = '0px';
                 worksItemsDropBlock1.style.marginLeft = '0px'; 
